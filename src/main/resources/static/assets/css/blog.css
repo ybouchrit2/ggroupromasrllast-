@@ -1,0 +1,109 @@
+/* تنسيق الحاوية الرئيسية للمدونة */
+.blog-content-section {
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+    background-color: #f9f9f9 !important;
+  }
+  
+  /* تنسيق بطاقة المدونة */
+  .blog-content-section .card {
+    border-radius: 12px !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1) !important;
+    margin: 0 auto !important; /* لتوسيط البطاقة */
+    max-width: 900px !important; /* الحد من العرض */
+  }
+  
+  .blog-content-section .card-body {
+    padding: 30px !important;
+    background-color: #fff !important;
+    border-radius: 8px !important;
+  }
+  
+  .blog-content-section .card-body h2 {
+    font-size: 28px !important;
+    font-weight: 700 !important;
+    color: #333 !important;
+    margin-bottom: 20px !important;
+    text-align: center !important; /* لتوسيط العنوان */
+  }
+  
+  /* تنسيق الصورة */
+  .blog-content-section img {
+    max-width: 100% !important;
+    border-radius: 8px !important;
+    margin-bottom: 20px !important;
+    object-fit: cover !important;
+    max-height: 400px !important; /* تحديد أقصى ارتفاع للصورة */
+  }
+  
+  /* تنسيق التاريخ والمؤلف */
+  .blog-content-section .d-flex {
+    font-size: 14px !important;
+    color: #888 !important;
+    justify-content: space-between !important;
+    margin-bottom: 20px !important;
+  }
+  
+  .blog-content-section .d-flex span {
+    display: flex !important;
+    align-items: center !important;
+  }
+  
+  .blog-content-section .d-flex span svg {
+    margin-right: 8px !important;
+  }
+  
+  /* تنسيق المحتوى */
+  .blog-content-section .blog-content {
+    font-size: 16px !important;
+    line-height: 1.8 !important;
+    color: #555 !important;
+    margin-top: 20px !important;
+    padding: 20px !important;
+    width: 100%;
+    border-radius: 8px !important;
+  }
+  
+  /* تخصيص النصوص العادية داخل المدونة */
+  .blog-content-section .blog-content p {
+    margin-bottom: 20px !important;
+    font-size: 16px !important;
+  }
+  
+  /* تخصيص العرض عند التحميل */
+  .text-center.my-5 {
+    padding: 20px !important;
+    font-size: 18px !important;
+    color: #ff6f61 !important;
+  }
+  
+  /* تخصيص حالة عدم وجود مدونة */
+  .text-center.my-5 {
+    font-size: 18px !important;
+    color: #ff6f61 !important;
+  }
+  
+  /* تخصيص للعرض على الشاشات الصغيرة */
+  @media (max-width: 768px) {
+    .blog-content-section .container {
+      padding-left: 15px !important;
+      padding-right: 15px !important;
+    }
+  
+    .blog-content-section .card-body h2 {
+      font-size: 24px !important;
+    }
+  
+    .blog-content-section .blog-content {
+      font-size: 14px !important;
+    }
+  
+    .blog-content-section .d-flex {
+      font-size: 12px !important;
+    }
+  
+    .blog-content-section img {
+      max-height: 300px !important; /* تعديل حجم الصورة على الشاشات الصغيرة */
+    }
+  }
+  
